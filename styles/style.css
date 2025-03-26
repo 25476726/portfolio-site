@@ -1,0 +1,33 @@
+/* Default light theme */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom right, lightskyblue, lightgreen);
+
+}
+li a {
+    text-decoration: none;
+    color: black
+}
+.nav-contact, .navbar {
+    list-style-type: none;
+}
+
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .navbar {
+    background-image: linear-gradient(to bottom right, midnightblue, darkgreen);
+}
+body.dark-mode li a {
+    color: white;
+}
