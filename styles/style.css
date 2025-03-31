@@ -7,9 +7,18 @@ body {
 }
 
 .navbar {
-    background-image: linear-gradient(to bottom right, lightskyblue, lightgreen);
-
+    background: linear-gradient(45deg, lightskyblue, lightgreen, lightskyblue, lightgreen);
+    background-size: 375% 375%; /* Allows for a smoother transition */
+    animation: navgradientAnimation 6s infinite linear;
+    margin: 0;
+    padding: 10px;
 }
+
+@keyframes navgradientAnimation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
 li a {
     text-decoration: none;
     color: black
@@ -26,7 +35,10 @@ body.dark-mode {
 }
 
 body.dark-mode .navbar {
-    background-image: linear-gradient(to bottom right, midnightblue, darkgreen);
+    background: linear-gradient(45deg, midnightblue, darkgreen, midnightblue, darkgreen);
+    background-size: 375% 375%; /* Allows for a smoother transition */
+    animation: navgradientAnimation 6s infinite linear;
+
 }
 body.dark-mode li a {
     color: white;
