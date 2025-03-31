@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(0deg, lightskyblue, lightgreen, lightskyblue, lightgreen, lightskyblue);
+    background: linear-gradient(90deg, lightskyblue, lightgreen, lightskyblue, lightgreen, lightskyblue);
     background-size: 200% 200%; /* Allows for a smoother transition */
     animation: navgradientAnimation 6s infinite linear;
     margin: 0;
