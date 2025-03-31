@@ -7,8 +7,8 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(45deg, lightskyblue, lightgreen, lightskyblue, lightgreen);
-    background-size: 375% 375%; /* Allows for a smoother transition */
+    background: linear-gradient(0deg, lightskyblue, lightgreen, lightskyblue, lightgreen, lightskyblue);
+    background-size: 200% 200%; /* Allows for a smoother transition */
     animation: navgradientAnimation 6s infinite linear;
     margin: 0;
     padding: 10px;
@@ -35,8 +35,8 @@ body.dark-mode {
 }
 
 body.dark-mode .navbar {
-    background: linear-gradient(45deg, midnightblue, darkgreen, midnightblue, darkgreen);
-    background-size: 375% 375%; /* Allows for a smoother transition */
+    background: linear-gradient(90deg, midnightblue, darkgreen, midnightblue, darkgreen, midnightblue);
+    background-size: 200% 200%; /* Allows for a smoother transition */
     animation: navgradientAnimation 6s infinite linear;
 
 }
