@@ -1,0 +1,16 @@
+@media (min-aspect-ratio: 1/1) {  /*desktop layouts*/
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    header nav { 
+        grid-column: 1;
+    }
+    header h1 {
+        grid-column: 2;
+    }
+    header .contact {
+        grid-column: 3;
+    }
+}
