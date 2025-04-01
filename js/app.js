@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const togglers = document.querySelectorAll("h4, img");
+    const togglers = document.querySelectorAll(".skillhead");
 
     togglers.forEach((toggler) => {
         toggler.addEventListener("click", function () {
