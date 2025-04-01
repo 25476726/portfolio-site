@@ -7,7 +7,7 @@ body {
     transition: 0.3s;
 }
 
-header {
+header, footer {
     background: linear-gradient(90deg, lightskyblue, lightgreen, lightskyblue, lightgreen, lightskyblue);
     background-size: 200% 200%; /* Allows for a smoother transition */
     animation: gradientAnimation 8s infinite linear;
@@ -20,7 +20,7 @@ header {
     100% { background-position: 100% 50%; }
 }
 
-li a {
+a {
     text-decoration: none;
     color: black
 }
@@ -77,13 +77,13 @@ body.dark-mode {
     color: white;
 }
 
-body.dark-mode header {
+body.dark-mode header, body.dark-mode footer {
     background: linear-gradient(90deg, midnightblue, darkgreen, midnightblue, darkgreen, midnightblue);
     background-size: 200% 200%; /* Allows for a smoother transition */
     animation: gradientAnimation 8s infinite linear;
 
 }
-body.dark-mode li a {
+body.dark-mode a {
     color: white;
 }
 body.dark-mode .skill img {
