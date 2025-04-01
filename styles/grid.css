@@ -13,7 +13,7 @@
     header .contact {
         grid-column: 3;
     }
-    #skills {
+    .about {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -34,7 +34,7 @@
     header .contact {
         grid-row: 2;
     }
-    #skills {
+    .about {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
