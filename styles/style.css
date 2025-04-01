@@ -33,6 +33,29 @@ nav li, nav li a {
     display: block;
     transition: 0.3s;
 }
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: auto; 
+    padding: 0;
+}
+nav li {
+    padding: 15px 0px;
+    flex-grow: 1;
+    text-align: center; 
+}
+header {
+    padding: 15px 0px;
+    flex-grow: 1;
+    text-align: center; 
+}
+.skill {
+    text-align: center; 
+}
+.skill img {
+    max-width: 100%;
+}
 
 
 /* Dark mode styles */
@@ -50,23 +73,10 @@ body.dark-mode header {
 body.dark-mode li a {
     color: white;
 }
+body.dark-mode .skill img {
+    filter: brightness(60%);
+}
 
 @media (min-aspect-ratio: 1/1) { /*DESKTOP STYLES*/
-    nav ul {
-        display: flex;
-        align-items: center;
-        justify-content: center; 
-        height: auto; 
-        padding: 0;
-    }
-    nav li {
-        padding: 15px 0px;
-        flex-grow: 1;
-        text-align: center; 
-    }
-    header {
-        padding: 15px 0px;
-        flex-grow: 1;
-        text-align: center; 
-    }
+
 }

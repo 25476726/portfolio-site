@@ -13,4 +13,30 @@
     header .contact {
         grid-column: 3;
     }
+    #skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media (max-aspect-ratio: 1/1) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    header nav { 
+        grid-row: 3;
+    }
+    header h1 {
+        grid-row: 1;
+    }
+    header .contact {
+        grid-row: 2;
+    }
+    #skills {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }

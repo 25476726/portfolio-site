@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/grid.css">
     <script src="js/theme.js"></script>
+    <script src="js/app.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
@@ -22,7 +23,7 @@
         <ul class="contact">
             <li><i class="material-icons">place</i> Liverpool, England</li>
             <li><i class="material-icons">mail</i> lew.brougham@gmail.com</li>
-            <li id="theme-toggle">Theme <i class="material-icons">dark_mode</i></li>
+            <li id="theme-toggle"><i class="material-icons">dark_mode</i> Theme</li>
         </ul>
     </header>
 <h2>A bit about me...</h2>
@@ -30,27 +31,45 @@
 <p>I am based in Liverpool and am a current Web Design & Development student at Edge Hill University, graduating in Summer 2025. 
     I have also been in part time employment throughout my time at university at a local Sainsbury's 
     supermarket as an Online Assistant.</p>
-<h3>Skills I have acquired</h3>    
-    <h4>User Experience Designing & Testing</h4>
-        <p>During my Fundamentals of UX Design module at university, I conducted a UX study on a Virtual Learning Environment (VLE) to evaluate user preferences and pain points of the system. 
-            To gather insights, I designed and distributed  user surveys to users of this system. Ensuring that the questions they contained were unbiased and carefully considered.</p>
-        <p>Using the survey data, I gathered multiple redesign concepts using the Crazy 8’s method, refining the most suitable concept into a more detailed sketch. 
-            I then developed a wireframe incorporating real content that would be in the VLE, followed by a fully interactive prototype in Figma for testing purposes.</p>
-        <p>To assess usability of my proposed redesign, I conducted Think-Aloud testing with users of the original VLE, gathering feedback on improvements and potential new issues. The results were compiled into a report, 
-            which contained the processes of analysing user preferences, the redesign development, and a conclusion of whether the proposed VLE effectively addressed identified pain points while ensuring no new usability concerns were introduced.</p>
-    <h4>Remote Usability Testing</h4>
-        <p>Following on from my Fundamentals of UX module. I completed a Usability Testing & Data Analysis module, which introduced me to testing websites without access to real users</p>
-        <p>I conducted a usability assessment of a website to identify usability, accessibility, and performance issues. Unlike my previous module which relied on user surveys and direct user testing, 
-            this assessment focused on analytical methods to evaluate the site without direct user involvement.</p>
-        <p>I performed log analysis on the site's raw log data using Python tools such as Pandas & MatPlotLib (after firstly cleaning unnecessary data), as well as Accessibility & Performance testing using tools such as Chrome's LightHouse & ARC Toolkit.  
-            A Cognitive Walkthrough was also performed to identify any issues with the site's flow. All of these methods helped to assess the overall user experience of the site with no access to users personally.
-            These methods helped identify potential usability barriers, performance inefficiencies, and user flow disruptions, particularly those that could slow down or discourage users from completing actions, such as paying their deposit.</p>
-        <p>As with the UX module, a report was produced containing descriptions of the usability and data analysis techniques used, as well as findings from the tests, and a comparison of the tests used and their findings. 
-            Finally, proposed solutions to any issues identified were detailed, with justifications as to why these solutions would be suitable and why it is important to implement them, as well as which recommendations are the most important out of them all.</p>
-    <h4>Accessible Web Design & Development using HTML5</h4>
-        <p>My Web Design & Development module in first year of university gave me the fundamental knowledge of developing accessible websites using HTML5 semantic tags.
-            This module also introduced me to CSS, including CSS Grid & Flex for responsive layouts. During this module, I completed 10 small portfolio tasks to demonstrate my understanding,
-            as well as the development of a full site based on screenshots of the desired design. I also created a mobile layout of this website that remains fully accessible for those viewing on mobile with smaller screens.
-        </p>
+<h3>Skills I have acquired</h3>
+<article id="skills">
+    <figure class="skill">
+        <h4>User Experience Designing & Testing</h4>
+        <img src="assets/ux.png" alt="Image of User Experience Designing & Testing">
+            <p>During my Fundamentals of UX Design module at university, I conducted a UX study on a Virtual Learning Environment (VLE) to evaluate user preferences and pain points of the system. 
+                To gather insights, I designed and distributed  user surveys to users of this system. Ensuring that the questions they contained were unbiased and carefully considered.</p>
+            <p>Using the survey data, I gathered multiple redesign concepts using the Crazy 8’s method, refining the most suitable concept into a more detailed sketch. 
+                I then developed a wireframe incorporating real content that would be in the VLE, followed by a fully interactive prototype in Figma for testing purposes.</p>
+            <p>To assess usability of my proposed redesign, I conducted Think-Aloud testing with users of the original VLE, gathering feedback on improvements and potential new issues. The results were compiled into a report, 
+                which contained the processes of analysing user preferences, the redesign development, and a conclusion of whether the proposed VLE effectively addressed identified pain points while ensuring no new usability concerns were introduced.</p>
+    </figure>
+    <figure class="skill">
+        <h4>Remote Usability Testing</h4>
+        <img src="assets/usability.png" alt="Image of Remote Usability Testing & Data Analysis">
+            <p>Following on from my Fundamentals of UX module. I completed a Usability Testing & Data Analysis module, which introduced me to testing websites without access to real users</p>
+            <p>I conducted a usability assessment of a website to identify usability, accessibility, and performance issues. Unlike my previous module which relied on user surveys and direct user testing, 
+                this assessment focused on analytical methods to evaluate the site without direct user involvement.</p>
+            <p>I performed log analysis on the site's raw log data using Python tools such as Pandas & MatPlotLib (after firstly cleaning unnecessary data), as well as Accessibility & Performance testing using tools such as Chrome's LightHouse & ARC Toolkit.  
+                A Cognitive Walkthrough was also performed to identify any issues with the site's flow. All of these methods helped to assess the overall user experience of the site with no access to users personally.
+                These methods helped identify potential usability barriers, performance inefficiencies, and user flow disruptions, particularly those that could slow down or discourage users from completing actions, such as paying their deposit.</p>
+            <p>As with the UX module, a report was produced containing descriptions of the usability and data analysis techniques used, as well as findings from the tests, and a comparison of the tests used and their findings. 
+                Finally, proposed solutions to any issues identified were detailed, with justifications as to why these solutions would be suitable and why it is important to implement them, as well as which recommendations are the most important out of them all.</p>
+    </figure>
+    <figure class="skill">
+        <h4>Accessible Web Design & Development using HTML5</h4>
+        <img src="assets/accessible.png" alt="Image of Accessible Web Design & Development">
+            <p>My Web Design & Development module in first year of university gave me the fundamental knowledge of developing accessible websites using HTML5 semantic tags.
+                This module also introduced me to CSS, including CSS Grid & Flex for responsive layouts. During this module, I completed 10 small portfolio tasks to demonstrate my understanding,
+                as well as the development of a full site based on screenshots of the desired design. I also created a mobile layout of this website that remains fully accessible for those viewing on mobile with smaller screens.
+            </p>
+            <p>I have since developed several more accessible websites, expanding my knowledge. Examples of these include a site for a fictious dog walking company where I followed a brief, and created a website according to it. 
+                The goal of this website was for users to contact the company and get them business. I also created a web page for an air fryer, with it's goal to get users to purchase the product. 
+            </p>
+            <p>My final project at university was to create a website that stands out compared to other websites which all follow very similar design patterns to one another. My website was a tour guide to Liverpool.
+                I chose to make a site on this as I found that all tourist websites were very similar to each other, which gave me ideas on how to make my one unique in comparison. I used my UX skills during this project to ensure
+                that my website met the user's needs, and that my designs were suitable though unique compared to others. I also used my usability testing skills to ensure that my unique site remained fully accessible and performed properly.
+            </p>
+    </figure>
+    </article>    
 </body>
 </html>
