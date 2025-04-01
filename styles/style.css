@@ -63,8 +63,6 @@ header {
     transition: max-height 0.3s ease-out, opacity 0.3s ease-out, margin 0.3s ease-out;
     margin: 0; 
 }
-
-/* When paragraphs are active (shown) */
 .skill p.active {
     max-height: 100%; 
     opacity: 1;
