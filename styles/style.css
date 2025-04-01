@@ -56,6 +56,21 @@ header {
 .skill img {
     max-width: 100%;
 }
+.skill p {
+    max-height: 0px;  
+    opacity: 0;  
+    overflow: hidden;  
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out, margin 0.3s ease-out;
+    margin: 0; 
+}
+
+/* When paragraphs are active (shown) */
+.skill p.active {
+    max-height: 100%; 
+    opacity: 1;
+    margin: 10px 0; 
+}
+
 
 
 /* Dark mode styles */
