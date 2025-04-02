@@ -66,6 +66,7 @@ header {
 }
 .skill img {
     max-width: 100%;
+    transition: 0.3s;
 }
 .skill p {
     max-height: 0px;  
