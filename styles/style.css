@@ -81,10 +81,10 @@ nav li {
     text-align: center; 
     font-family: "Tomorrow", sans-serif;
 }
-nav li {
+nav li, .skillhead {
     border-bottom: 2px solid transparent;
 }
-nav li:hover {
+nav li:hover, .skillhead:hover {
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 .navactive {
@@ -108,6 +108,7 @@ header {
     flex-direction: column-reverse; 
     align-items: center; 
     text-align: center;
+    transition: 0.3s;
 }
 .skill img, .mywork img {
     max-width: 100%;
@@ -142,6 +143,15 @@ header {
     margin: 0;
     padding: 10px;
 }
+.link {
+    text-decoration: none;
+    color: midnightblue;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.link:hover {
+    color: darkgreen;
+}
 /* Dark mode styles */
 body.dark-mode {
     background-color: #121212;
@@ -150,7 +160,7 @@ body.dark-mode {
 body.dark-mode .navactive {
     border-bottom: 2px solid white;
 }
-body.dark-mode nav li:hover {
+body.dark-mode nav li:hover, body.dark-mode .skillhead:hover {
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -172,6 +182,12 @@ body.dark-mode .skill img {
 }
 body.dark-mode .skillhead img:hover {
     filter: brightness(55%);
+}
+body.dark-mode .link {
+    color: lightskyblue;
+}
+body.dark-mode .link:hover {
+    color: lightgreen;
 }
 
 @media (min-aspect-ratio: 1/1) { /*DESKTOP STYLES*/
