@@ -100,15 +100,16 @@ header {
 #theme-toggle {
     cursor: pointer;
 }
-.skill {
-    text-align: center;
+.skill, .work {
+    text-align: left;
 }
 .skillhead {
     display: flex;
     flex-direction: column-reverse; 
     align-items: center; 
+    text-align: center;
 }
-.skill img {
+.skill img, .mywork img {
     max-width: 100%;
     transition: 0.3s;
 }
