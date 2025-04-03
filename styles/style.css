@@ -10,8 +10,19 @@ body {
     transition: 0.3s;
 }
 h2, h3 , h4, p{
-    margin-left: 5px;
+    margin-left: 10px;
     font-family: "Tomorrow", sans-serif;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 20px;
+}
+p {
     font-size: larger;
 }
 h1 {
@@ -48,7 +59,7 @@ a {
 nav ul, .contact {
     list-style-type: none;
     font-family: "Tomorrow", sans-serif;
-    margin: 0;
+    margin-top: 0;
     padding: 0;
 }
 nav li, nav li a {
@@ -69,14 +80,24 @@ nav li {
     text-align: center; 
     font-family: "Tomorrow", sans-serif;
 }
-/* header img {
-   width: 20%;
-} */
+nav li {
+    border-bottom: 2px solid transparent;
+}
+nav li:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.navactive {
+    border-bottom: 2px solid black;
+    transition: 0.3s;
+}
 header {
     display: flex;
     align-items: flex-end;  
     justify-content: center; 
     text-align: center;
+}
+#theme-toggle {
+    cursor: pointer;
 }
 .skill {
     text-align: center;
@@ -123,6 +144,12 @@ header {
 body.dark-mode {
     background-color: #121212;
     color: white;
+}
+body.dark-mode .navactive {
+    border-bottom: 2px solid white;
+}
+body.dark-mode nav li:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 body.dark-mode header, body.dark-mode footer {
