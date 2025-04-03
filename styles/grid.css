@@ -1,7 +1,7 @@
 @media (min-aspect-ratio: 1/1) {  /*desktop layouts*/
     header {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr;
     }
     header nav { 

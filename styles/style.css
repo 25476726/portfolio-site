@@ -1,4 +1,7 @@
 /* Default light theme */
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 body {
     background-color: white;
     color: black;
@@ -6,8 +9,31 @@ body {
     margin: 0;
     transition: 0.3s;
 }
-h1, h2, h3 , h4, p {
+h2, h3 , h4, p{
     margin-left: 5px;
+    font-family: "Tomorrow", sans-serif;
+
+}
+
+h1 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: -1em;
+  }
+
+.intro {
+    font-family: "Give You Glory", cursive;
+    font-size: 1.5em;
+    text-align: left;
+    transform: rotate(-20deg);
+    font-weight: bold;
+    color: black;
+    margin-top: 2em;
+    margin-left: 5em;
+    max-width: 4em;
+    transition: 0.3s;
 }
 
 header, footer {
@@ -29,6 +55,11 @@ a {
 }
 nav ul, .contact {
     list-style-type: none;
+    font-family: "Tomorrow", sans-serif;
+}
+.contact {
+    text-align: right;
+    margin-right: 1em;
 }
 nav li, nav li a {
     font-size: 20px;
@@ -47,6 +78,7 @@ nav li {
     padding: 15px 0px;
     flex-grow: 1;
     text-align: center; 
+    font-family: "Tomorrow", sans-serif;
 }
 /* header img {
    width: 20%;
@@ -81,7 +113,7 @@ header {
     margin: 10px 0; 
 }
 .skillhead img:hover {
-    filter: brightness(80%) blur(1px) 
+    filter: brightness(80%); 
 }
 #toby {
     width: 60%;
@@ -97,9 +129,6 @@ header {
     margin: 0;
     padding: 10px;
 }
-
-
-
 /* Dark mode styles */
 body.dark-mode {
     background-color: #121212;
@@ -116,14 +145,14 @@ body.dark-mode #tobybg {
     background-size: 200% 200%; 
     animation: gradientAnimation 2s infinite linear;
 }
-body.dark-mode a {
+body.dark-mode a, body.dark-mode .intro {
     color: white;
 }
 body.dark-mode .skill img {
     filter: brightness(70%);
 }
 body.dark-mode .skillhead img:hover {
-    filter: brightness(55%) blur(1px) 
+    filter: brightness(55%);
 }
 
 @media (min-aspect-ratio: 1/1) { /*DESKTOP STYLES*/
