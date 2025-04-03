@@ -81,7 +81,7 @@ header {
     margin: 10px 0; 
 }
 .skillhead img:hover {
-    filter: brightness(75%) blur(2px) 
+    filter: brightness(80%) blur(1px) 
 }
 #toby {
     width: 60%;
@@ -120,10 +120,10 @@ body.dark-mode a {
     color: white;
 }
 body.dark-mode .skill img {
-    filter: brightness(60%);
+    filter: brightness(70%);
 }
 body.dark-mode .skillhead img:hover {
-    filter: brightness(45%) blur(2px) 
+    filter: brightness(55%) blur(1px) 
 }
 
 @media (min-aspect-ratio: 1/1) { /*DESKTOP STYLES*/
