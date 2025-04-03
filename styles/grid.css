@@ -23,7 +23,7 @@
     header {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
     }
     header nav { 
         grid-row: 3;
@@ -33,10 +33,5 @@
     }
     header .contact {
         grid-row: 2;
-    }
-    .about {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     }
 }
