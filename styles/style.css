@@ -105,12 +105,15 @@ header {
 .skill, .work {
     text-align: left;
 }
-.skillhead {
+.skillhead, .gallery figure {
     display: flex;
     flex-direction: column-reverse; 
     align-items: center; 
     text-align: center;
     transition: 0.3s;
+}
+.gallery h2 {
+    min-height: 2.5em;
 }
 .skill img, .mywork img, .gallery img {
     max-width: 100%;
