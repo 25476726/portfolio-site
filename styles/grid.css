@@ -13,10 +13,15 @@
     header .contact {
         grid-column: 3;
     }
-    .about {
+    .about  {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
     }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 3/2) { /*Alters grid size for narrower rectangle displays*/

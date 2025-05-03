@@ -112,9 +112,12 @@ header {
     text-align: center;
     transition: 0.3s;
 }
-.skill img, .mywork img {
+.skill img, .mywork img, .gallery img {
     max-width: 100%;
     transition: 0.3s;
+}
+.gallery {
+    gap: 1em;
 }
 .skill p {
     max-height: 0px;  
