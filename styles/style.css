@@ -139,7 +139,6 @@ header {
 }
 #toby {
     width: 60%;
-    display: block;
 }
 #tobybg {
     display: flex; 
@@ -200,7 +199,6 @@ body.dark-mode .link {
 body.dark-mode .link:hover {
     color: lightgreen;
 }
-
 
 
 @media (min-aspect-ratio: 1/1) { /*DESKTOP STYLES*/
