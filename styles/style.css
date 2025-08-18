@@ -14,7 +14,7 @@ body {
     transition: 0.3s;
     width: 100%;
 }
-h2, h3, p{
+h2, h3, p, li{
     margin-left: 10px;
     font-family: "Tomorrow", sans-serif;
 }
@@ -24,7 +24,7 @@ h2 {
 h3 {
     font-size: 24px;
 }
-p {
+p, li {
     font-size: larger;
 }
 h1 {
@@ -139,6 +139,7 @@ header {
 }
 #toby {
     width: 60%;
+    display: block;
 }
 #tobybg {
     display: flex; 
@@ -199,6 +200,8 @@ body.dark-mode .link {
 body.dark-mode .link:hover {
     color: lightgreen;
 }
+
+
 
 @media (min-aspect-ratio: 1/1) { /*DESKTOP STYLES*/
     #toby {

@@ -13,29 +13,13 @@
     header .contact {
         grid-column: 3;
     }
-    .about  {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-    }
-    .gallery {
+    .about,
+    .gallery,
+    .mywork {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
-    }
-}
-@media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 3/2) { /*Alters grid size for narrower rectangle displays*/
-    .mywork {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
-@media (min-aspect-ratio: 3/2) {
-    .mywork {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        gap: 1em;
     }
 }
 @media (max-aspect-ratio: 1/1) { /*Mobile Layouts*/
